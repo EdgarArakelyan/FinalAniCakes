@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANI CAKES</title>
+    <!-- <documentation at http://demos.jquerymobile.com/1.4.1/ > -->
+      <link rel="stylesheet" href="themes/MyTheme.min.css" />
+      <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+      <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/public/javascripts/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/style.css">
+
+</head>
+
+<body>
+  
+    <!-- Start of  page -->
+    <div data-role="page"  id="home">
+            <!--   page header -->
+            <div data-role="header" data-theme=''>
+               <!-- helpful location   -->
+              <!-- https://demos.jquerymobile.com/1.2.0/docs/toolbars/docs-navbar.html -->
+
+              <h1 style="color:palevioletred; font-size:35px;">ANI CAKES</h1>
+              <h2 style="color:palevioletred;">The Best Custom Cake</h2>
+                <div data-role="navbar"  data-theme='a'>
+                    <ul>
+                        <li><a href="#home">HOME/CONTACTS</a></li>
+                        <li><a href="#Load">PRODUCTS & MAKE ORDER</a></li>
+                        <li><a href="#ListAll">ORDERS LIST</a></li>
+         
+                    </ul>
+                  </div><!-- /navbar -->
+               
+            </div>
+            <!--   page content -->
+            <div data-role="content" data-theme='a'>
+              <h2 style="text-align:center; background-color:lightpink"> Handmade cakes from our artisan shop in Bellevue WA!<br />Made with Love!</h2>
+              <img id="image1" src="./images/attachments/IMG_9413.JPG" alt="Cake Image" width="100%" height="700px">
+            </div>
+              
+            <!--  page footer -->
+            <div data-role="footer" data-theme='a'>
+                    <h1>Copyrights 2020 BY ANI CAKES</h1>
+            </div>
+        </div>
+
+
+        <div data-role="page"  id="Load">
+            <!--  page header -->
+            <div data-role="header" data-theme='a'>
+              <h1 style="color:palevioletred; font-size:35px;">ANI CAKES</h1>
+              <h2 style="color:palevioletred;">COLLECTIONS</h2>
+              <div data-role="navbar"  data-theme='a'>
+                  <ul>
+                      <li><a href="#home">HOME/CONTACTS</a></li>
+                      <li><a href="#Load">PRODUCTS & MAKE ORDER</a></li>
+                      <li><a href="#ListAll">ORDERS LIST</a></li>
+                   </ul>
+                </div><!-- /navbar -->
+          </div>
+            <!-- page content -->
+            <div class="clearfix">
+              <h2 style="text-align: center; color :lightcoral;">Wedding & Engagement Cakes</h2>
+              <div class="img-container">
+                <p>N:9383</p>
+              <img src="./images/attachments/IMG_9383.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                <p>N:9404</p>
+              <img src="./images/attachments/IMG_9404.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                <p>N:9429</p>
+              <img src="./images/attachments/IMG_9429.JPG" alt="Cake" style="width:100%">
+              </div>
+              <h2 style="text-align: center; color :lightcoral;">Birthday Cakes</h2>
+              <div class="img-container">
+                <p>N:9373</p>
+              <img src="./images/attachments/IMG_9373.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                <p>N:9414</p>
+              <img src="./images/attachments/IMG_9414.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                <p>N:9403</p>
+              <img src="./images/attachments/IMG_9403.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                  <p>N:9378</p>
+                <img src="./images/attachments/IMG_9378.JPG" alt="Cake" style="width:100%">
+                </div>
+                <div class="img-container">
+                  <p>N:9382</p>
+                <img src="./images/attachments/IMG_9382.JPG" alt="Cake" style="width:100%">
+                </div>
+                <div class="img-container">
+                  <p>N:9415</p>
+                <img src="./images/attachments/IMG_9415.JPG" alt="Cake" style="width:100%">
+                </div>
+                <h2 style="text-align: center; color :lightcoral;">Baby Shower Cakes</h2>
+              <div class="img-container">
+                <p>N:9409</p>
+              <img src="./images/attachments/IMG_9409.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                <p>N:9399</p>
+              <img src="./images/attachments/IMG_9399.JPG" alt="Cake" style="width:100%">
+              </div>
+              <div class="img-container">
+                <p>N:9411</p>
+              <img src="./images/attachments/IMG_9411.JPG" alt="Cake" style="width:100%">
+              </div>
+            </div>
+
+            <div data-role="content" data-theme='a'>
+              <h2>Enter Order Details</h2>
+              <h3>For the custom orders please contact with us</h3>
+                Enter order number <br />
+                <input type="text" value="" id="order" />
+                Enter flavor: vanilla, chocolate, fruits <br />
+                <input type="text" value="" id="flavor" />
+                Enter delivery day: <br />
+                <input type="text" value="" id="day" />
+                Enter delivery time: <br />
+                <input type="text" value="" id="time" />
+                <form>
+                  <div class="ui-field-contain">
+                    <label for="select-people">Select number of people</label>
+                    <select name="select-people" id="select-people">
+                      <option value="Quantity"></option>
+                      <option value="15people">For 10-15 people</option>
+                      <option value="20people">For 15-20 people</option>
+                      <option value="25people">For 20-25 people</option>
+                      <option value="30people">For 25-30 people</option>
+                      <option value="35people">For 30-35 people</option>
+                      <option value="40people">For 35-40 people</option>
+                    </select>
+                  </div>
+                </form>
+
+                <input type="button" value="Click To Add Order" id="buttonAdd"  data-inline="true" />
+                  <input type="button" value="Clear Data" id="buttonClear"  data-inline="true" />
+            </div>
+              
+            <!--   page footer -->
+            <div data-role="footer" data-theme='a'>
+              <h1>Copyrights 2020 BY ANI CAKES</h1>
+            </div>
+        </div>
+
+
+
+
+    <div data-role="page"  id="ListAll">
+            <!--   page header -->
+            <div data-role="header" data-theme='a'>
+                <h1 style="color:palevioletred; font-size:35px;">ANI CAKES</h1>
+                <h1 style="color:palevioletred;">ORDERS LIST</h1>
+              <div data-role="navbar"  data-theme='a'>
+                  <ul>
+                    <li><a href="#home">HOME/CONTACTS</a></li>
+                    <li><a href="#Load">PRODUCTS & MAKE ORDER</a></li>
+                    <li><a href="#ListAll">ORDERS LIST</a></li>
+                  </ul>
+                </div><!-- /navbar -->
+          </div>
+            <!--   page content -->
+            <div data-role="content" data-theme='a'>
+              <p>YOUR ORDERS</p>
+              <div id="divCakeList"></div>            
+            <input type="button" value="Sort By Order" id="buttonSortOrder" data-inline="true"  />
+            <input type="button" value="Sort By People Quantitys" id="buttonSortPeople" data-inline="true"   />
+            <br />
+            <br />
+            Enter Cake Number to Delete <br />
+            <input type="text" value="" id="deleteOrder" data-inline="true" />
+            <input type="button" value="Delete Order by Number from Order box" id="buttonDelete" data-inline="true"   />
+        </div> 
+
+            <!--   page footer -->
+            <div data-role="footer" data-theme='a'>
+              <h1>Copyrights 2020 BY ANI CAKES</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start of  page -->
+    <div data-role="page"  id="detailPage">
+            <!--   page header -->
+            <div data-role="header" data-theme='a'>
+                <h1>ORDER DETAILS</h1>
+              <div data-role="navbar"  data-theme='a'>
+                  <ul>
+                      <li><a href="#home">HOME/CONTACTS</a></li>
+                      <li><a href="#Load">PRODUCTS & MAKE ORDER</a></li>
+                      <li><a href="#ListAll">ORDERS LIST</a></li>
+
+                  </ul>
+                </div><!-- /navbar -->
+          </div>
+            <!--  content -->
+            <div data-role="content" data-theme='a'>
+              <div>                
+                <p id="IDparmHere" hidden>change1</p>  <!-- hidden    a place to stash the user ID -->               
+                <p class="bold" > Here are the details</p>
+                <p> <span class="bold"> Order: </span> <span id="oneOrder" </span>  </p>
+                <p><span class="bold"> Flavor: </span> <span id="oneFlavor" </span>  </p>
+                <p><span class="bold"> Day: </span> <span id="oneDay" </span>  </p>
+                <p><span class="bold"> Time: </span> <span id="oneTime" </span>  </p>
+                <p><span class="bold"> People: </span> <span id="onePeople" </span>  </p>
+
+                
+              </div>
+            </div>
+              
+            <!--    footer -->
+            <div data-role="footer" data-theme='a'>
+              <h1>Copyrights 2020 by ANI CAKES</h1>
+            </div>
+        
+    </div>
+
+     <!-- Start of  page -->
+     <div data-role="page"  id="refreshPage">
+        <!--  content -->
+         <div data-role="content" >
+               <!--  this page is used to to jump to and then back to a page to force a pagebeforeload event -->
+         </div>
+     </div>  
+
+    
+
+</body>
+</html>
